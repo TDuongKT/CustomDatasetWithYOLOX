@@ -279,7 +279,7 @@ def main(exp, args):
 
     if not args.trt:
         if args.ckpt is None:
-            ckpt_file = os.path.join(file_name, "best_ckpt.pth")
+            ckpt_file = os.path.join(file_name, "80.pth")
         else:
             ckpt_file = args.ckpt
         logger.info("loading checkpoint")
